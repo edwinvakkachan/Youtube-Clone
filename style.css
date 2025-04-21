@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+img {
+    cursor: pointer;
+}
+.flex-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 2%;
+    box-shadow: 0 0 10px chocolate;
+    background-color: white;
+}
+.nav-right img{
+width: 30px;
+}
+.nav-right{
+    justify-content: space-evenly;
+    display: flex;
+    gap: 20px;
+}
+.jack{
+    border-radius: 20px;
+}
+.nav-left {
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.menuicon{
+    width: 22px;
+    margin-right: 25px;
+}
+.menulogo{
+    width: 70px;
+    height: 70px;
+}
+.voiceSearchIcon {
+    width: 16px;
+}
+.searchIcon {
+    width: 16px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.searchBox{
+    width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 20px;
+    height: 30px;
+}
+
+/* ---------------sideBar------------------------- */
+
+.sidebar{
+    background: #fff;
+    padding-top: 50px;
+    padding-left: 2%; 
+    width: 30%;
+}
+.sidebarclick a{
+    display: flex;
+    align-items: center;
+   flex-wrap: wrap;
+   width: fit-content;
+   font-size: 20px;
+   width: 30%;
+}
+.sidebarclick img {
+    width: 40px;
+   padding-bottom: 30px;
+}
+.texthome {
+    color: #ed3833;
+}
+.subscribedList h3{
+    font-size: 20px;
+    margin: 20px 0;
+    color: #5a5a5a;
+    width: 30%;
+}
+.subscribedList a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.subscribedList img{
+    border-radius: 50px;
+    width: 25px;
+    margin-right: 20px;
+}
+/* ------------main------------ */
+
+.imgsize {
+    padding-top: 10px;
+    padding-right: 10px;
+    width: 200px;
+    /* height: 20px; */
+}
+
+.sidebarwidth {
+    width:30%;
+    height: 100vh;
+}
+
+
+.main {
+
+    /* align-items: center; */
+    display: flex;
+    justify-content: space-around;
+
+} 
+.videos {
+    width: 70%;
+}
+.banner img {
+    width: 300px;
+}
